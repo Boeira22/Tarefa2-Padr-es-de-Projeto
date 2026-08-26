@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class VisualizadorDeSomatorio {
+public class VisualizadorDeSomatorio implements Observer {
     private List<Integer> valores;
 
     public VisualizadorDeSomatorio(List<Integer> valores){

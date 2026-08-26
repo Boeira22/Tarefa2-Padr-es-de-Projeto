@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class VisualizadorDeMedia {
+public class VisualizadorDeMedia implements Observer{
     private List<Integer> valores;
 
     public VisualizadorDeMedia(List<Integer> valores){
